@@ -1,0 +1,98 @@
+WebDriver is a tool which only interact with browser .
+
+Selenium is a set of tool. it is used for mainly to test web based applications. 
+it will not support window/desktop based application.
+Features of selenium :
+Its a open source tool. support also is free , although it is community based.
+mainly used to test functional and regression test cases of web based applications and formed mobile application.
+Selenium has its own script language "Selense".
+
+Dis-Advantages
+we cannot test window based/Desktop Application.
+
+we cannot test CUI(Command User Interface) Application.
+it is not containing object repository like QTP/UFT.
+it is needs third party tool to become fully functional like Java...
+
+why we are using selenium ?
+Not Only for it is open source app. it is very optable to test online enterprise's application like facebook , google kind of web interface application.
+
+Selenium Versions OverView:
+Selenium version1
+
+it is a combination of 
+Selenium IDE , Seleniumm RC & Grid
+we are not in the necessary to use all the selenium tools together in a single project.
+As per the application/prject requirement we can choose the selenium tools among SeleniumIDE,Selenium Rc, Selenium webDriver, Grid.
+
+
+1.Selenium IDE(Integrated Development Environment)
+a.it is a firefox plugins.
+b. it contains inbuilt selense commands to write/enhance test cases and allows you to record , edit , play back and debug tests.
+c. Save tests as HTML, Ruby Scripts , or any other format.
+
+Draw Back of Selenium IDE
+
+a.we can use selenium IDE only for small/Simple Applications testing.
+we cannot handle/write test cases to test major/complicated functionalities.
+b.it doesn't have object repository like UFT and also doesn't support data driven , keyword driven , pom frameworks.
+c.it doesn't support any programming languages such as java, Python.
+d.it supports only Firefox Browser.
+
+2.Selenium RC(Selenium Remote Control)
+ Now a days it is used for only maintenance projects Bcoz of selenium webdriver features overcomes the selenium RC Features.
+
+3.Selnium Grid
+
+it is used to test Cross Browser testing , parrel Testing and Group Testing generate HTML Test Report using TestNG Frameworks.
+
+Selenium version2
+it is a combination of Selenium IDE , Selnium RC, Selenium WebDriver, Selenium Grid.
+
+Selenium WebDriver
+
+it uses Selense and WebDriver Commands and also object/element
+locators to write test cases/ enhance test cases.
+
+features :
+a. it is used to write Test cases , enhance Test cases using various programming languages such as java , python#, Perl , Ruby , Php...
+By having this features of selenium webdriver we can handle major projects/functionalities.
+b.it also used various browsers to execute test cases such as firefox , chrome , IE, Safari , opera....
+selenium IDE doesn't support any other IE , chrome accept Firefox.
+c.it supports various operating systems like windows , unix , linux, Macintosh..
+d.it supports Data Driven , Keyword Driven , POM.
+
+DrawBack of Slenium WebDriver
+it doesn't create detailed test report.
+it doen't have object repository like UFT.
+we cannot test window , cui based application.
+
+Selenium version3.x
+
+Selenium released 2 beta versions of selenium 3.0(Beta 1 & 2 till 3rd Aug, 2016) with few of the below changes:
+
+Reference link:
+https://raw.githubusercontent.com/SeleniumHQ/selenium/master/java/CHANGELOG
+Beta 1 updates
+Minimum java version is now 8+
+Supports for Firefox is via Mozilla's Gecko driver (will discuss later while using Selenium Webdriver)
+
+Major Difference between SeleniumIDE and Selenium WebDriver :
+
+WebDriver is typically used to create browser-based regression tests whereas selenium IDE is most advantageous in creating uit tests,
+exploratory tests and quick bug reproduction scripts .
+
+Environment Setup for Selenium 
+Installing Selenium IDE & FireBug 
+steps:
+1.launch firefox(bcoz selenium IDE is a firefox plugin) and navigate to http://seleniumhq.org/download/under the selenium IDE section.
+
+
+Why Test Case Fails
+1.Application Down
+2.Server is Not responding
+3.Network Issue
+4.Scripting Issue
+5.Application Issue
+
+
